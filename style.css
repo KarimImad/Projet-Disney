@@ -3,11 +3,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
-body{ 
-    padding: 0px 300px;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 a{
     text-decoration: none;
 }
@@ -59,12 +55,14 @@ header{
 }
 .Fond{
     background-image: url(Images/lilo_stitch_hero_4009_r_e7d96ac6.jpg);
-    background-size: contain;
+    background-size: cover;
     position: relative;
-    width: 100%;
-    height: 650px;
+    width: 80%;
+    height: 70vh;
     background-repeat: no-repeat;
     background-position:center; 
+    margin: 0 auto;
+    
 }
 
 .stitchRouge{
@@ -97,10 +95,9 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center; 
-    max-width: 100%;
-    width:100%;
+    width:80%;
     background-color: rgba(248, 248, 248, 0.919);
-    ;
+    margin: 0 auto;
 }
 
 .post {
@@ -111,13 +108,75 @@ header{
     background-color: white;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    padding-bottom: 80px;
-    margin: 10px;
+    padding-bottom: 40px;
+    margin: 10px;   
+}
+
+.imagestyle {
+    width: 17em;
+    object-fit: cover;
+
+}
+
+.AllPosts{
+    display: flex;
+    /*margin-left: 100px;
+    margin-right: 100px; */
     
 }
-.imagestyle {
-    width: 100%;
-    height: 100%;
+
+h3{
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+
+}
+
+p{
+    width: 12em;
+    display: flex;
+    justify-content: center;
+
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.NameContent{
+    font-style: bold;
+    font-weight: 800;
+}
+
+.troisiemePartie{
+    background-color:#054553 ;
+    width:80%;
+    margin: 0 auto;
+}   
+
+.AllPosts2{
+    display: flex;
+    justify-content: center;
     
+
+}
+
+.thirdPartImg{
+    width: 26em;
+    
+}
+.thirdImgMargin{
+    margin-right: 25px;
+}
+.inscriptButton{
+    display: flex;
+    justify-content: center;
+    padding: 35px ;
     
 }
